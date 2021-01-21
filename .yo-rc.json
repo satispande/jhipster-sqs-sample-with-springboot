@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.aquasense.flowmeter"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "test",
+    "packageName": "com.aquasense.flowmeter",
+    "packageFolder": "com/aquasense/flowmeter",
+    "serverPort": "9090",
+    "authenticationType": "jwt",
+    "cacheProvider": "redis",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjdlNmUzYTMwMzI1ZWVkMTQ3OWQ3ZmY5YWMxZTNlMWNhZWE4ZjY3YzgwODM5NzVlZDFmNDdiZWFiYWZiNWQyYmYyZThmZTg0NGU5MDk1ZjY4MjI3OWRhMGZkODdhNjdjMjM2ZDE4MGE0YWI5NTUwODI5YjhhMWZhMjA5ZWY3N2Y=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1611227928384,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
