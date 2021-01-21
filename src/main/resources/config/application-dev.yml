@@ -18,6 +18,10 @@ logging:
     ROOT: DEBUG
     io.github.jhipster: DEBUG
     com.aquasense.flowmeter: DEBUG
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
 
 spring:
   profiles:
@@ -107,7 +111,18 @@ jhipster:
       queue-size: 512
   audit-events:
     retention-period: 30 # Number of days before audit events are deleted.
-
+cloud:
+  aws:
+    region:
+      static: eu-west-3
+      auto: false
+    credentials:
+      access-key: AKIA35OGN7Z4FYZJQCNR
+      secret-key: 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
+    stack:
+      auto: false
+      
+      
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
